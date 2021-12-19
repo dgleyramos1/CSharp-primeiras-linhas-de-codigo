@@ -1,10 +1,11 @@
 ﻿using System;
 using CSharp;
 using Interface;
+using Enum;
 
 namespace CSharp
 {
-   class Progam
+   class Program
     {
         public static void Main(string[] args)
         {
@@ -21,6 +22,12 @@ namespace CSharp
             animal.Especie = "Caramelo";
 
             Console.WriteLine("Nome:" + animal.Nome + "\n" + "Nome do Dono:" + animal.NomeDono + "\n" + "Especie:" + animal.Especie + "\n");
+
+
+            Pessoas personagem = Pessoas.Gustavo;
+
+            Console.WriteLine(personagem);
+
 
         }
     }
